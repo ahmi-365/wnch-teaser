@@ -23,7 +23,7 @@ export default function OurTeam() {
             </div>
             <h3 className="text-2xl font-bold mb-4 text-neutral-800 dark:text-neutral-100">Unwavering Reliability</h3>
             <p className="text-neutral-700 dark:text-neutral-400 leading-relaxed">
-              Your dispatch board is the heart of your business. We engineer our platform for 99.99% uptime, ensuring you never miss a call, day or night.
+              Your provider dashboard is the heart of your business. We engineer our platform for 99.99% uptime, ensuring you never miss a call, day or night.
             </p>
           </div>
 
@@ -33,7 +33,7 @@ export default function OurTeam() {
             </div>
             <h3 className="text-2xl font-bold mb-4 text-neutral-800 dark:text-neutral-100">Relentless Innovation</h3>
             <p className="text-neutral-700 dark:text-neutral-400 leading-relaxed">
-              We don't settle for the status quo. From AI-driven dispatching to predictive analytics, we continuously push the boundaries of what's possible.
+              We don't settle for the status quo. From AI-driven provider matching to predictive analytics, we continuously push the boundaries of what's possible.
             </p>
           </div>
 

@@ -43,7 +43,7 @@ const Service = () => {
         viewport={{once: true}}
       >
         <h1 className="text-3xl md:text-5xl py-5 text-center dark:bg-gradient-to-r from-white from-50% to-[#8f8f8f] bg-text bg-clip-text  md:w-[50%] text-transparent font-bold">
-          Transform your dispatch operations with tailored solutions
+          Transform your provider operations with tailored solutions
         </h1>
         <p className="text-base md:text-2xl text-neutral-500 dark:text-neutral-300">
           Towing / Roadside Assistance / Transport / Recovery
@@ -55,7 +55,8 @@ const Service = () => {
         <Link href='/services' className="w-full rounded-full">
         <Button
           title="View All Service"
-          className="hover:!bg-neutral-950 hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black w-full py-5"
+          className="hover:!bg-wnch-blue transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 hover:outline-wnch-blue dark:hover:outline-wnch-blue dark:!text-white !text-black w-full py-5 before:!bg-white"
+          textClassName="group-hover:!text-black"
           />
         </Link>
       </ComponentTransition>

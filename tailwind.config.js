@@ -20,8 +20,11 @@ module.exports = {
             background: "#F2F2F2",
           },
         },
+        wnch: {
+          blue: "#1E45D7",
+          green: "#8DC421",
+        }
       },
-      
     },
   },
   plugins: [],

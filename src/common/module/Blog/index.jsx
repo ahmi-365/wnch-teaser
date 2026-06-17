@@ -6,7 +6,7 @@ import ComponentTransition from "@/common/component/element/ComponentTransition"
 import Link from "next/link";
 import Buttons from "@/common/component/element/Buttons";
 import Feedback from "../Feedback";
-import Button from "@/common/component/element/Button";
+import { ButtonSpot } from "@/common/component/element/ButtonSpot";
 
 const Blog = () => {
   return (
@@ -19,15 +19,15 @@ const Blog = () => {
           Our Blog & News
         </h1>
         <p className="text-base md:text-2xl text-neutral-500 dark:text-neutral-300 md:w-[50%] text-center">
-          We share essential insights on modern dispatching, towing operations, and fleet management strategies.
+          We share essential insights on modern provider matching, towing operations, and fleet management strategies.
         </p>
       </ComponentTransition>
       <BlogList />
-      <ComponentTransition className="w-full md:flex-row flex-col items-center flex justify-center gap-3">
-        <Link href='/blog' className="w-full rounded-full">
-        <Button
-          title="View All Blog"
-          className="hover:!bg-neutral-950 hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black w-full py-5"
+      <ComponentTransition className="w-full flex items-center justify-center gap-3 mt-5">
+        <Link href='/blog' className="flex justify-center">
+          <ButtonSpot
+            title="View All Blog"
+            className="!px-10 !py-4"
           />
         </Link>
       </ComponentTransition>

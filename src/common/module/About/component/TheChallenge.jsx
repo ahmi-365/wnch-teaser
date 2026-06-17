@@ -8,7 +8,7 @@ export default function TheChallenge() {
       <div className="md:basis-[50%]">
         <h2 className="text-3xl font-bold mb-6 text-neutral-800 dark:text-neutral-100">The Challenge We Saw</h2>
         <p className="text-lg text-neutral-700 dark:text-neutral-300 mb-4 leading-relaxed">
-          For decades, the towing and roadside assistance industry has been plagued by extreme fragmentation and operational bottlenecks. Dispatchers were forced to rely on chaotic whiteboards, frantic phone calls, and manual spreadsheets to route drivers. 
+          For decades, the towing and roadside assistance industry has been plagued by extreme fragmentation and operational bottlenecks. Providers were forced to rely on chaotic whiteboards, frantic phone calls, and manual spreadsheets to route drivers. 
         </p>
         <p className="text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed">
           This lack of digital infrastructure led to massive inefficiencies: long wait times for stranded motorists, high deadhead mileage for fleet owners, and lost revenue due to missed calls and inaccurate billing. Motor clubs and insurance companies struggled with poor visibility, unable to give their customers accurate ETAs. The entire ecosystem was ripe for disruption.

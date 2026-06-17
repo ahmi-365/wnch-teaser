@@ -21,7 +21,7 @@ const About = () => {
       </div>
       <div className="flex justify-center items-center flex-col">
         <p className="text-base md:text-2xl text-neutral-500 md:w-[70%] text-center">
-          Discover how WNCH Hub was built from the ground up to revolutionize the towing and dispatching industry through innovative, cloud-based technology.
+          Discover how WNCH Hub was built from the ground up to revolutionize the towing and roadside assistance industry through innovative, cloud-based technology.
         </p>
       </div>
       <CardAbout />

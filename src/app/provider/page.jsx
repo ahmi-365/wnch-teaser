@@ -35,7 +35,7 @@ export default function ProviderPage() {
   return (
     <div className="w-full flex flex-col justify-center items-center overflow-x-hidden">
       {/* Hero Section */}
-      <section className="w-full max-w-[1500px] px-5 lg:px-10 mt-32 md:mt-40 mb-20 flex flex-col lg:flex-row items-center justify-between relative gap-10">
+      <section className="w-full max-w-[1500px] px-5 lg:px-10 mt-24 md:mt-28 mb-10 flex flex-col lg:flex-row items-center justify-between relative gap-8">
         <div className="absolute top-0 left-0 w-full h-full z-[-1] opacity-50 glowbg mix-blend-screen pointer-events-none"></div>
         <div className="absolute w-[90%] top-[10%] h-[500px] z-[-2]">
           <Rails />
@@ -50,18 +50,18 @@ export default function ProviderPage() {
             Provider App
           </div>
           <H1
-            className="!leading-[1.1em] dark:bg-gradient-to-r from-white from-50% to-[#9c9c9c] bg-text bg-clip-text text-transparent text-5xl md:text-6xl xl:text-7xl font-bold pb-4 text-left"
+            className="!leading-[1.1em] dark:bg-gradient-to-r from-white from-50% to-[#9c9c9c] bg-text bg-clip-text text-transparent text-4xl md:text-5xl xl:text-6xl font-bold pb-4 text-left"
             title="Grow Your Fleet Business With WNCH"
           />
           <p className="text-xl mt-6 dark:text-neutral-300 text-neutral-700 leading-relaxed max-w-xl mb-10">
-            Join the GCC's fastest-growing dispatch network. More jobs, smarter tools, automated payments.
+            Join the GCC's fastest-growing provider network. More jobs, smarter tools, automated payments.
           </p>
           <StoreButtons light={false} className="mb-4" />
         </div>
 
-        <div className="lg:w-1/2 flex justify-center lg:justify-end relative z-10 mt-10 lg:mt-0">
-          <div className="relative w-[320px] md:w-[400px] xl:w-[450px] h-auto rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-[0_0_80px_rgba(26,59,199,0.4)] ring-1 ring-white/10">
-            <img src="/assets/provider-app-screen.png" alt="Provider App Preview" className="w-full h-auto" />
+        <div className="lg:w-1/2 flex justify-center lg:justify-center relative z-10 mt-8 lg:mt-0">
+          <div className="relative w-[180px] md:w-[220px] xl:w-[260px] h-auto rounded-[1.25rem] md:rounded-[1.5rem] overflow-hidden shadow-[0_0_80px_rgba(26,59,199,0.4)] ring-1 ring-white/10">
+            <img src="/assets/provider/1.jpeg" alt="Provider App Preview" className="w-full h-auto" />
           </div>
         </div>
       </section>
@@ -80,7 +80,7 @@ export default function ProviderPage() {
         <div className="text-center mb-16">
           <p className="text-[#1a3bc7] dark:text-[#5c80ff] font-bold tracking-widest uppercase text-sm mb-2">Registration Flow</p>
           <h2 className="text-3xl md:text-5xl font-bold text-neutral-900 dark:text-neutral-100">How to Join WNCH</h2>
-          <p className="text-neutral-600 dark:text-neutral-400 mt-6 text-xl max-w-2xl mx-auto">From signup to first dispatch in days — not weeks.</p>
+          <p className="text-neutral-600 dark:text-neutral-400 mt-6 text-xl max-w-2xl mx-auto">From signup to first provider in days — not weeks.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 relative">
           <div className="hidden lg:block absolute top-10 left-[12%] right-[12%] h-[2px] border-t-2 border-dashed border-neutral-300 dark:border-neutral-700" />

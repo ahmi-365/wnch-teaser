@@ -7,8 +7,9 @@ import { useEffect, useState } from "react";
 import { NavigationItem } from "@/common/constant/NavigationItem";
 import { usePathname } from "next/navigation";
 import dynamic from "next/dynamic";
-import { ButtonSpot } from "../element/ButtonSpot";
 import DarkmodeSwitch from "../element/DarkmodeSwitch";
+import { User, Wrench } from "lucide-react";
+import Buttons from "../element/Buttons";
 
 // const Logos = dynamic(() => import('./Logo'), {
 //   ssr: false
@@ -82,15 +83,50 @@ const Navbar = () => {
             <DarkmodeSwitch />
           </div>
           <Link href="/customer" className="whitespace-nowrap shrink-0">
-            <ButtonSpot
-              title="Customer App"
-              className="!bg-[#8DC421] dark:!bg-[#8DC421] !text-black hover:opacity-90 whitespace-nowrap"
-              noBlend={true}
-              circleClassName="bg-white/40 dark:bg-white/40"
-            />
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="group relative px-6 py-2.5 rounded-full font-bold text-black bg-gradient-to-r from-[#8DC421] to-[#A3D936] shadow-[0_0_15px_rgba(141,196,33,0.4)] hover:shadow-[0_0_25px_rgba(141,196,33,0.7)] transition-all duration-300 overflow-hidden"
+            >
+              <div className="absolute inset-0 w-full h-full bg-white/30 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"></div>
+              <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/40 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out skew-x-12"></div>
+              
+              <span className="relative z-10 flex items-center justify-center gap-2">
+                <User className="w-5 h-5" />
+                Customer App
+                <div className="relative overflow-hidden w-4 h-4 flex items-center justify-center">
+                  <svg className="absolute w-4 h-4 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                  <svg className="absolute w-4 h-4 translate-x-0 group-hover:translate-x-full transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </div>
+              </span>
+            </motion.button>
           </Link>
           <Link href="/provider" className="whitespace-nowrap shrink-0">
-            <ButtonSpot title="Provider App" className="whitespace-nowrap" />
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="group relative px-6 py-2.5 rounded-full font-bold text-white dark:text-black bg-wnch-blue dark:bg-neutral-100 border border-wnch-blue dark:border-neutral-200 shadow-[0_0_15px_rgba(0,0,0,0.2)] dark:shadow-[0_0_15px_rgba(255,255,255,0.4)] hover:shadow-[0_0_25px_rgba(30,69,215,0.5)] dark:hover:shadow-[0_0_25px_rgba(255,255,255,0.7)] transition-all duration-300 overflow-hidden"
+            >
+              <div className="absolute inset-0 w-full h-full bg-[#1737B0] dark:bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"></div>
+              <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/10 dark:via-black/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out skew-x-12"></div>
+              
+              <span className="relative z-10 flex items-center justify-center gap-2">
+                <Wrench className="w-5 h-5" />
+                Provider App
+                <div className="relative overflow-hidden w-4 h-4 flex items-center justify-center">
+                  <svg className="absolute w-4 h-4 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                  <svg className="absolute w-4 h-4 translate-x-0 group-hover:translate-x-full transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </div>
+              </span>
+            </motion.button>
           </Link>
         </div>
       </div>

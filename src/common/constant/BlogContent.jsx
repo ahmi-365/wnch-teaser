@@ -4,11 +4,11 @@
 export const BlogContent = [
   {
     id: 1,
-    bigTitle: "The Future of Towing Dispatch",
-    slug: "future-of-towing-dispatch",
+    bigTitle: "The Future of Towing Provider",
+    slug: "future-of-towing-provider",
     img: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?q=80&w=1000",
-    title: "The Future of Towing Dispatch: Automation & AI",
-    desc: "Discover how AI and automated routing are transforming the towing industry. Learn how modern dispatch software reduces response times, minimizes manual entry, and maximizes fleet efficiency for operators of all sizes.",
+    title: "The Future of Towing Provider: Automation & AI",
+    desc: "Discover how AI and automated routing are transforming the towing industry. Learn how modern provider software reduces response times, minimizes manual entry, and maximizes fleet efficiency for operators of all sizes.",
     content: (
       <>
         {/* ── INTRO ── */}
@@ -16,7 +16,7 @@ export const BlogContent = [
           The Need for Speed
         </h1>
         <p className="pb-5 leading-relaxed">
-          In the towing industry, response time is everything. Traditional dispatching methods — whiteboards, radio calls, and handwritten logs — are no longer sufficient to meet modern customer expectations. A customer broken down on a highway does not want to wait 45 minutes to find out if a truck is even on its way. They want a confirmation, an ETA, and a live tracking link. The industry is finally catching up, and the catalyst is AI-driven dispatch automation.
+          In the towing industry, response time is everything. Traditional provider matching methods — whiteboards, radio calls, and handwritten logs — are no longer sufficient to meet modern customer expectations. A customer broken down on a highway does not want to wait 45 minutes to find out if a truck is even on its way. They want a confirmation, an ETA, and a live tracking link. The industry is finally catching up, and the catalyst is AI-driven provider automation.
         </p>
 
         {/* ── STAT BLOCK ── */}
@@ -24,14 +24,14 @@ export const BlogContent = [
           <p className="text-sm font-semibold text-blue-600 uppercase tracking-widest mb-1">Industry Insight</p>
           <p className="text-2xl font-bold text-gray-900 dark:text-white">38%</p>
           <p className="text-gray-600 dark:text-gray-300 text-sm mt-1">
-            Average reduction in dispatch-to-arrival time reported by fleets that switched to automated routing platforms in 2023.
+            Average reduction in provider-to-arrival time reported by fleets that switched to automated routing platforms in 2023.
           </p>
         </div>
 
         {/* ── SECTION 1 ── */}
-        <h2 className="text-2xl font-bold mt-8 mb-3">What Exactly Is AI Dispatching?</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-3">What Exactly Is AI Provider Matching?</h2>
         <p className="pb-4 leading-relaxed">
-          AI dispatching refers to software systems that automatically receive incoming service requests, analyze available provider locations in real time, and assign the nearest or best-suited vehicle — without a human dispatcher manually making that call. The algorithm factors in distance, route congestion, vehicle type compatibility, and even provider performance ratings.
+          AI provider matching refers to software systems that automatically receive incoming service requests, analyze available provider locations in real time, and assign the nearest or best-suited vehicle — without a human provider manually making that call. The algorithm factors in distance, route congestion, vehicle type compatibility, and even provider performance ratings.
         </p>
         <p className="pb-5 leading-relaxed">
           Platforms like WNCH take this a step further by using WebSocket-based real-time matching, meaning the moment a customer submits a roadside assistance request, the nearest available provider receives a job alert within seconds — not minutes. The entire process that used to take 3–7 minutes of back-and-forth radio calls now happens in under 30 seconds.
@@ -40,29 +40,29 @@ export const BlogContent = [
         {/* ── SECTION 2 ── */}
         <h2 className="text-2xl font-bold mt-8 mb-3">Eliminating Manual Entry Errors</h2>
         <p className="pb-4 leading-relaxed">
-          One of the most underestimated costs in traditional dispatch is data entry errors. A dispatcher manually typing a pickup address, vehicle description, and job type under time pressure will inevitably make mistakes. Those mistakes cascade — wrong truck, wrong location, unhappy customer, and a second dispatch that doubles cost and halves your reputation.
+          One of the most underestimated costs in traditional provider is data entry errors. A provider manually typing a pickup address, vehicle description, and job type under time pressure will inevitably make mistakes. Those mistakes cascade — wrong truck, wrong location, unhappy customer, and a second provider that doubles cost and halves your reputation.
         </p>
         <p className="pb-5 leading-relaxed">
-          Automated dispatch systems capture all structured data directly from the customer at the point of request. The customer enters their GPS location (or it is captured automatically), selects the issue type, and confirms their vehicle details. That data flows directly to the assigned provider — no transcription, no guesswork.
+          Automated provider systems capture all structured data directly from the customer at the point of request. The customer enters their GPS location (or it is captured automatically), selects the issue type, and confirms their vehicle details. That data flows directly to the assigned provider — no transcription, no guesswork.
         </p>
 
         {/* ── PULL QUOTE ── */}
         <blockquote className="my-8 border-l-4 border-gray-300 dark:border-gray-600 pl-6 italic text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
-          "The dispatcher used to be the bottleneck. Now, the system dispatches faster than any human could — and it never has a bad day."
+          "The provider used to be the bottleneck. Now, the system connects providers faster than any human could — and it never has a bad day."
           <span className="block mt-3 text-sm not-italic font-semibold text-gray-500 dark:text-gray-400">— Operations Manager, GCC Towing Fleet</span>
         </blockquote>
 
         {/* ── SECTION 3 ── */}
         <h2 className="text-2xl font-bold mt-8 mb-3">Smart Routing: Beyond the Nearest Truck</h2>
         <p className="pb-4 leading-relaxed">
-          Early dispatch software simply pinged the closest driver. Modern AI goes further. It considers live traffic data, the driver's current job status (en route vs. just arrived vs. just completed), the vehicle's equipment capabilities (flatbed vs. wheel-lift vs. heavy recovery), and the estimated time to reach the customer.
+          Early provider software simply pinged the closest driver. Modern AI goes further. It considers live traffic data, the driver's current job status (en route vs. just arrived vs. just completed), the vehicle's equipment capabilities (flatbed vs. wheel-lift vs. heavy recovery), and the estimated time to reach the customer.
         </p>
         <p className="pb-5 leading-relaxed">
           This means a driver who is 2 km away but stuck in downtown traffic may be deprioritized in favor of a driver 4 km away on a clear highway. The result is a more accurate ETA — and a customer who is told "18 minutes" and sees the truck arrive in 17 minutes rather than 35.
         </p>
 
         {/* ── CHECKLIST ── */}
-        <h2 className="text-2xl font-bold mt-8 mb-4">What to Look for in a Modern Dispatch Platform</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">What to Look for in a Modern Provider Platform</h2>
         <ul className="space-y-3 mb-6">
           {[
             "Real-time GPS tracking of all providers on a live map",
@@ -81,21 +81,21 @@ export const BlogContent = [
         </ul>
 
         {/* ── SECTION 4 ── */}
-        <h2 className="text-2xl font-bold mt-8 mb-3">The Human Dispatcher Isn't Going Away</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-3">The Human Provider Isn't Going Away</h2>
         <p className="pb-4 leading-relaxed">
-          It is worth stating clearly: AI dispatch does not eliminate dispatchers. It elevates them. A dispatcher using modern software handles edge cases, customer escalations, and complex multi-vehicle jobs — the situations that require judgment and empathy. The routine "assign closest truck to standard tow" decision is delegated to the system so that skilled humans can focus on the calls that actually need a human.
+          It is worth stating clearly: AI provider does not eliminate providers. It elevates them. A provider using modern software handles edge cases, customer escalations, and complex multi-vehicle jobs — the situations that require judgment and empathy. The routine "assign closest truck to standard tow" decision is delegated to the system so that skilled humans can focus on the calls that actually need a human.
         </p>
         <p className="pb-5 leading-relaxed">
-          Fleets that have adopted AI dispatch consistently report that dispatchers feel less stressed, make fewer errors, and are able to manage significantly more concurrent jobs than before. It is a force multiplier, not a replacement.
+          Fleets that have adopted AI provider consistently report that providers feel less stressed, make fewer errors, and are able to manage significantly more concurrent jobs than before. It is a force multiplier, not a replacement.
         </p>
 
         {/* ── CLOSING ── */}
         <h2 className="text-2xl font-bold mt-8 mb-3">The Shift Is Already Happening</h2>
         <p className="pb-4 leading-relaxed">
-          Across the GCC and beyond, towing and roadside assistance operators who have adopted real-time automated dispatch are pulling ahead of competitors still relying on radio and spreadsheets. The gap will only widen. The question is no longer whether automation will take over towing dispatch — it is which operators will be on the right side of that transition.
+          Across the GCC and beyond, towing and roadside assistance operators who have adopted real-time automated provider are pulling ahead of competitors still relying on radio and spreadsheets. The gap will only widen. The question is no longer whether automation will take over towing provider — it is which operators will be on the right side of that transition.
         </p>
         <p className="pb-8 leading-relaxed">
-          Platforms like WNCH are built from the ground up to deliver this automation: real-time provider matching, live tracking, automated settlement, and a full admin dashboard — designed specifically for the GCC towing market. The future of dispatch is already here.
+          Platforms like WNCH are built from the ground up to deliver this automation: real-time provider matching, live tracking, automated settlement, and a full admin dashboard — designed specifically for the GCC towing market. The future of provider is already here.
         </p>
       </>
     ),
@@ -126,7 +126,7 @@ export const BlogContent = [
           <h2 className="text-2xl font-bold">Real-Time GPS Tracking</h2>
         </div>
         <p className="pb-4 leading-relaxed">
-          Knowing exactly where your trucks are at any given moment allows you to dispatch the closest vehicle to an emergency, saving fuel and improving customer satisfaction. But real-time tracking goes beyond the map pin. Modern GPS integrations show vehicle speed, idle time, route adherence, and whether a driver has deviated from an assigned job.
+          Knowing exactly where your trucks are at any given moment allows you to provider the closest vehicle to an emergency, saving fuel and improving customer satisfaction. But real-time tracking goes beyond the map pin. Modern GPS integrations show vehicle speed, idle time, route adherence, and whether a driver has deviated from an assigned job.
         </p>
         <p className="pb-5 leading-relaxed">
           Idle time is one of the largest hidden costs in fleet operations. A truck idling for 30 minutes per shift burns unnecessary fuel and adds engine wear. GPS-based idle alerts allow fleet managers to identify patterns and coach drivers, with some fleets reporting 12–18% fuel savings within the first quarter of implementation.
@@ -147,10 +147,10 @@ export const BlogContent = [
           <h2 className="text-2xl font-bold">Automated Job Assignment</h2>
         </div>
         <p className="pb-4 leading-relaxed">
-          Manual dispatch is the bottleneck of most towing operations. A dispatcher fielding calls, checking a whiteboard, and radioing drivers can manage perhaps 8–12 concurrent jobs before errors and delays multiply. Automated job assignment removes that ceiling entirely.
+          Manual provider is the bottleneck of most towing operations. A provider fielding calls, checking a whiteboard, and radioing drivers can manage perhaps 8–12 concurrent jobs before errors and delays multiply. Automated job assignment removes that ceiling entirely.
         </p>
         <p className="pb-5 leading-relaxed">
-          When a request comes in, the system evaluates all available providers in real time — their location, equipment type, current job status, and estimated availability — and pushes the job directly to the best match. No phone call, no whiteboard update, no delay. Dispatchers shift from making routine assignments to supervising exceptions, which is a far better use of their expertise.
+          When a request comes in, the system evaluates all available providers in real time — their location, equipment type, current job status, and estimated availability — and pushes the job directly to the best match. No phone call, no whiteboard update, no delay. Providers shift from making routine assignments to supervising exceptions, which is a far better use of their expertise.
         </p>
 
         {/* ── METHOD 3 ── */}
@@ -192,7 +192,7 @@ export const BlogContent = [
           Where are most of your calls coming from? At what time of day? On which days of the week? Most fleet operators answer these questions from gut instinct — and gut instinct is usually directionally right but numerically wrong.
         </p>
         <p className="pb-5 leading-relaxed">
-          Analyzing 90 days of dispatch data reveals demand heatmaps: the zones that generate the most calls, the hours where response times slip, and the shifts where you are either over- or under-staffed. Repositioning standby trucks to high-demand zones during peak hours is one of the fastest ways to reduce average response time without adding vehicles or headcount.
+          Analyzing 90 days of provider data reveals demand heatmaps: the zones that generate the most calls, the hours where response times slip, and the shifts where you are either over- or under-staffed. Repositioning standby trucks to high-demand zones during peak hours is one of the fastest ways to reduce average response time without adding vehicles or headcount.
         </p>
 
         {/* ── CLOSING ── */}
@@ -201,7 +201,7 @@ export const BlogContent = [
           Fleet optimization does not require rebuilding your entire operation overnight. Pick the one lever from the five above that will have the most immediate impact on your current pain point — whether that is fuel cost, response time, vehicle downtime, or driver accountability — and measure the change over 30 days. The data will tell you what to focus on next.
         </p>
         <p className="pb-8 leading-relaxed">
-          WNCH provides the dispatch automation, live tracking, and performance analytics that power all five of these strategies in a single platform built for GCC towing operators. You do not need five separate tools — you need one platform that connects them.
+          WNCH provides the provider automation, live tracking, and performance analytics that power all five of these strategies in a single platform built for GCC towing operators. You do not need five separate tools — you need one platform that connects them.
         </p>
       </>
     ),
@@ -229,7 +229,7 @@ export const BlogContent = [
         {/* ── SECTION 1 ── */}
         <h2 className="text-2xl font-bold mt-8 mb-3">The Hidden Cost of Manual Invoicing</h2>
         <p className="pb-4 leading-relaxed">
-          In traditional towing operations, billing happens after the job — sometimes hours or days later. A dispatcher or office manager reviews the job sheet, calculates the fare based on distance and service type, types up an invoice, and sends it to the customer or the insurance company. Each of these steps is a potential error point.
+          In traditional towing operations, billing happens after the job — sometimes hours or days later. A provider or office manager reviews the job sheet, calculates the fare based on distance and service type, types up an invoice, and sends it to the customer or the insurance company. Each of these steps is a potential error point.
         </p>
         <p className="pb-5 leading-relaxed">
           Studies of small fleet operators consistently find that 6–12% of billable work goes uninvoiced due to lost job sheets, forgotten entries, or staff oversight. For a fleet doing 150 jobs per month at an average ticket of AED 250, that is AED 2,250–4,500 in revenue walking out the door every month — silently, without anyone noticing.
@@ -314,7 +314,7 @@ export const BlogContent = [
           Transparency is Key
         </h1>
         <p className="pb-5 leading-relaxed">
-          Providing customers with a live tracking link reduces anxiety and prevents the dreaded "where is my tow truck?" phone calls to your dispatch center. But designing a genuinely good customer experience in roadside assistance requires thinking carefully about what a customer is going through — and what they need at each moment.
+          Providing customers with a live tracking link reduces anxiety and prevents the dreaded "where is my tow truck?" phone calls to your provider center. But designing a genuinely good customer experience in roadside assistance requires thinking carefully about what a customer is going through — and what they need at each moment.
         </p>
 
         {/* ── SECTION 1 ── */}
@@ -375,8 +375,8 @@ export const BlogContent = [
 
         {/* ── PULL QUOTE ── */}
         <blockquote className="my-8 border-l-4 border-gray-300 dark:border-gray-600 pl-6 italic text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
-          "After we added live tracking, our inbound 'where is the truck?' calls dropped by 60%. Our dispatcher went from fielding complaints to handling actual problems."
-          <span className="block mt-3 text-sm not-italic font-semibold text-gray-500 dark:text-gray-400">— Dispatch Manager, UAE Towing Network</span>
+          "After we added live tracking, our inbound 'where is the truck?' calls dropped by 60%. Our provider went from fielding complaints to handling actual problems."
+          <span className="block mt-3 text-sm not-italic font-semibold text-gray-500 dark:text-gray-400">— Provider Manager, UAE Towing Network</span>
         </blockquote>
 
         {/* ── SECTION 4 ── */}
@@ -394,7 +394,7 @@ export const BlogContent = [
           Customer ratings serve two purposes. First, they give individual customers a way to flag problems immediately — catching issues before they become online reviews. Second, they provide operators with granular performance data: which providers consistently score high, which routes correlate with lower ratings (perhaps due to longer-than-expected wait times), and where service quality dips by time of day or job type.
         </p>
         <p className="pb-5 leading-relaxed">
-          This data is only useful if it is acted on. Fleets that review provider ratings weekly and address patterns — not just individual complaints — improve faster than those that only respond to negative incidents. Ratings should feed directly into provider performance scores and dispatch prioritization, creating a virtuous cycle where better-performing providers get more work.
+          This data is only useful if it is acted on. Fleets that review provider ratings weekly and address patterns — not just individual complaints — improve faster than those that only respond to negative incidents. Ratings should feed directly into provider performance scores and provider prioritization, creating a virtuous cycle where better-performing providers get more work.
         </p>
 
         {/* ── CLOSING ── */}

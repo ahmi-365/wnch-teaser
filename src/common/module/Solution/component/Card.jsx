@@ -9,18 +9,18 @@ const CardSolution = () => {
       <div className="absolute  z-[-9] glowbg w-[100%] md:w-[600px] h-[400px] top-[50px]"></div>
       {CardItem?.map((item, index) => (
         <ComponentTransition
-          className="w-full h-[350px] group md:basis-[48%] overflow-hidden bg-neutral-50 dark:bg-[#0a0a0a] border-[1px] dark:border-neutral-700 border-neutral-300 rounded-3xl"
+          className="w-full h-auto pb-5 group md:basis-[48%] overflow-hidden bg-neutral-50 dark:bg-[#0a0a0a] border-[1px] dark:border-neutral-700 border-neutral-300 rounded-3xl"
           key={index}
           delay={index * 0.1}
         >
-          <div className="w-full h-[190px] overflow-hidden">
+          <div className="w-full h-[250px] overflow-hidden">
           <Image
             src={item.img}
             alt="Header Image"
             width={400}
             height={400}
             loading="lazy"
-            className="w-full h-auto group-hover:scale-125 transition-all duration-300  object-cover scale-110"
+            className="w-full h-full group-hover:scale-150 transition-all duration-300 object-cover object-center scale-125"
           />
           </div>
 

@@ -8,7 +8,7 @@ export default function OurStory() {
       <div className="md:basis-[45%] w-full h-[400px] overflow-hidden rounded-3xl">
         <Image
           src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop"
-          alt="Modern Dispatch Dashboard"
+          alt="Modern Provider Dashboard"
           width={600}
           height={400}
           className="w-full h-full object-cover"
@@ -20,7 +20,7 @@ export default function OurStory() {
           We built WNCH Hub to solve these exact problems. Combining deep industry expertise with top-tier software engineering, we developed a cloud-native platform that centralizes the entire towing workflow into one intuitive interface.
         </p>
         <p className="text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed">
-          By integrating real-time GPS fleet tracking, direct motor club API connections, and automated digital invoicing, we effectively eliminated the friction of manual dispatching. Today, WNCH Hub processes thousands of rescue operations daily, helping fleets scale their business, increase driver commissions, and get motorists back on the road safely and swiftly.
+          By integrating real-time GPS fleet tracking, direct motor club API connections, and automated digital invoicing, we effectively eliminated the friction of manual provider matching. Today, WNCH Hub processes thousands of rescue operations daily, helping fleets scale their business, increase driver commissions, and get motorists back on the road safely and swiftly.
         </p>
       </div>
     </ComponentTransition>

@@ -30,7 +30,7 @@ const ContactForm = () => {
         />
         <button
           className={clsx(
-            "py-2.5 bg-neutral-900 text-neutral-300 dark:bg-neutral-50 dark:text-neutral-950 flex justify-center hover:dark:bg-neutral-50 hover:bg-neutral-900 hover:scale-[101%] duration-300 transition-all"
+            "py-2.5 bg-wnch-blue text-white dark:bg-wnch-blue dark:text-white flex justify-center hover:opacity-90 hover:scale-[101%] duration-300 transition-all"
           )}
           type="submit"
         >

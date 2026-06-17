@@ -16,8 +16,8 @@ export const Services = [
         className="group-hover:rotate-90 transition-all duration-300"
       />
     ),
-    title: "How does the Smart Dispatching algorithm work?",
-    desc: "Our Smart Dispatching engine evaluates a matrix of variables before assigning a job. It looks at the real-time GPS location of all active trucks, the type of equipment required for the tow (e.g., flatbed vs. wheel-lift), the driver's current status, and live traffic data. By analyzing these factors instantly, the system automatically suggests or directly assigns the most efficient driver for the job, drastically reducing ETA times and deadhead mileage while ensuring the right equipment arrives on the scene.",
+    title: "How does the Smart Provider Matching algorithm work?",
+    desc: "Our Smart Provider Matching engine evaluates a matrix of variables before assigning a job. It looks at the real-time GPS location of all active trucks, the type of equipment required for the tow (e.g., flatbed vs. wheel-lift), the driver's current status, and live traffic data. By analyzing these factors instantly, the system automatically suggests or directly assigns the most efficient driver for the job, drastically reducing ETA times and deadhead mileage while ensuring the right equipment arrives on the scene.",
   },
   {
     icon: (
@@ -27,7 +27,7 @@ export const Services = [
       />
     ),
     title: "Can I integrate WNCH Hub with my existing Motor Clubs?",
-    desc: "Absolutely. WNCH Hub features a robust, bi-directional API that seamlessly integrates with major motor clubs such as Agero, AAA, Geico, and Allstate. When a motor club issues a digital dispatch, it drops directly into your WNCH Hub queue with all the customer information, vehicle details, and GPS coordinates pre-filled. You can accept or decline the call with a single click, and the system automatically pushes status updates, ETAs, and completion timestamps back to the motor club to maintain your provider score.",
+    desc: "Absolutely. WNCH Hub features a robust, bi-directional API that seamlessly integrates with major motor clubs such as Agero, AAA, Geico, and Allstate. When a motor club issues a digital provider, it drops directly into your WNCH Hub queue with all the customer information, vehicle details, and GPS coordinates pre-filled. You can accept or decline the call with a single click, and the system automatically pushes status updates, ETAs, and completion timestamps back to the motor club to maintain your provider score.",
   },
   {
     icon: (
@@ -37,7 +37,7 @@ export const Services = [
       />
     ),
     title: "How accurate is the real-time GPS fleet tracking?",
-    desc: "Our GPS tracking is accurate to within a few meters and updates every few seconds via the driver's mobile app or hardwired vehicle telematics. This high-frequency polling provides smooth, live movement on your dispatch map. It also creates a historical breadcrumb trail that dispatchers and managers can review later to verify routes taken, analyze driver behavior, and resolve disputes regarding arrival times or toll charges. The tracking functions seamlessly across all supported regions.",
+    desc: "Our GPS tracking is accurate to within a few meters and updates every few seconds via the driver's mobile app or hardwired vehicle telematics. This high-frequency polling provides smooth, live movement on your provider map. It also creates a historical breadcrumb trail that providers and managers can review later to verify routes taken, analyze driver behavior, and resolve disputes regarding arrival times or toll charges. The tracking functions seamlessly across all supported regions.",
   },
   {
     icon: (
@@ -47,7 +47,7 @@ export const Services = [
       />
     ),
     title: "Is my data secure and compliant with local regulations?",
-    desc: "Security is our top priority. All data transmitted between the mobile app, the dispatch portal, and our servers is encrypted using bank-level AES-256 encryption. We host our infrastructure on highly secure, compliant cloud servers with continuous backups and automated failover protocols. Furthermore, our system is designed to help you remain compliant with local and state regulations regarding impound lot tracking, certified letter generation, and digital signature retention.",
+    desc: "Security is our top priority. All data transmitted between the mobile app, the provider portal, and our servers is encrypted using bank-level AES-256 encryption. We host our infrastructure on highly secure, compliant cloud servers with continuous backups and automated failover protocols. Furthermore, our system is designed to help you remain compliant with local and state regulations regarding impound lot tracking, certified letter generation, and digital signature retention.",
   },
   {
     icon: (
@@ -87,7 +87,7 @@ export const Services = [
       />
     ),
     title: "Can customers track their assigned tow truck in real-time?",
-    desc: "Yes, delivering a modern customer experience is a core feature of WNCH Hub. The moment a driver is dispatched to a call, the system automatically sends an SMS text message to the stranded motorist. This message contains a secure, web-based tracking link. The customer can open the link on their smartphone to see the approaching tow truck on a live map, along with an accurate ETA. This drastically reduces anxiety for the customer and eliminates the 'where is my tow truck?' calls to your dispatch center.",
+    desc: "Yes, delivering a modern customer experience is a core feature of WNCH Hub. The moment a driver is assigned to a call, the system automatically sends an SMS text message to the stranded motorist. This message contains a secure, web-based tracking link. The customer can open the link on their smartphone to see the approaching tow truck on a live map, along with an accurate ETA. This drastically reduces anxiety for the customer and eliminates the 'where is my tow truck?' calls to your provider center.",
   },
   {
     icon: (
@@ -113,17 +113,17 @@ export const Services = [
 
 export const ServiceItem = [
   {
-    title: 'Intuitive Dispatch Dashboard',
+    title: 'Intuitive Provider Dashboard',
     desc: 'Experience a powerful dashboard design that simplifies job management and provides at-a-glance operational insights.',
     icon : <FaPager className="h-12 w-12 mb-4 dark:text-white text-black " />
   },
   {
     title: 'Real-time Tracking & Updates',
-    desc: 'WNCH ensures seamless live tracking of providers and active jobs, promoting a cohesive workflow for your dispatch team.',
+    desc: 'WNCH ensures seamless live tracking of providers and active jobs, promoting a cohesive workflow for your provider team.',
     icon : <ImProfile className="h-12 w-12 mb-4 dark:text-white text-black " />
   },
   {
-    title: 'Instant Job Dispatching',
+    title: 'Instant Provider Matching',
     desc: 'Assign towing and roadside assistance jobs with a single tap, catering to the fast-paced needs of emergency services.',
     icon : <IoDiamondOutline className="h-12 w-12 mb-4 dark:text-white text-black " />
   },

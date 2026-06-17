@@ -4,7 +4,7 @@ import React from 'react'
 
 export const metadata = {
   title: 'Services - WNCH Hub',
-  description: 'Services provided by WNCH Hub for towing and dispatch.',
+  description: 'Services provided by WNCH Hub for towing and provider.',
   
 }
 

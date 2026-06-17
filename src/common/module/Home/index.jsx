@@ -6,7 +6,6 @@ import Faq from '../Faq'
 import Blog from '../Blog'
 import Feedback from '../Feedback'
 import Feature from '../Feature/Feature'
-import Pricing from '../Pricing/Pricing'
 import Interest from '../EndSection/Interest'
 
 const Homepage = () => {
@@ -16,7 +15,6 @@ const Homepage = () => {
       <Feature />
       <Service />
       <Solution />
-      <Pricing/>
       <Faq />
       <Blog/>
       <Feedback/>

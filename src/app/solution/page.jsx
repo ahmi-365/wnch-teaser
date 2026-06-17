@@ -3,7 +3,7 @@ import React from 'react'
 
 export const metadata = {
   title: 'Solution - WNCH Hub',
-  description: 'Solutions and apps for the towing and dispatch industry.',
+  description: 'Solutions and apps for the towing and provider industry.',
   
 }
 

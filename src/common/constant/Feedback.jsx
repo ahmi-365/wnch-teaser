@@ -6,7 +6,7 @@ export const FeedbackItem = [
         title: 'Ahmad Al-Farsi',
         comp: 'Operations Manager at Gulf Recovery',
         img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000',
-        desc: '"WNCH Hub completely eliminated our dispatching bottlenecks. The real-time tracking is a game-changer, and our drivers love the mobile app. Highly recommended."'
+        desc: '"WNCH Hub completely eliminated our provider matching bottlenecks. The real-time tracking is a game-changer, and our drivers love the mobile app. Highly recommended."'
     },
     {
         title: 'Sarah Johnson',
@@ -22,7 +22,7 @@ export const FeedbackItem = [
     },
     {
         title: 'David Smith',
-        comp: 'CEO at Elite Dispatch Services',
+        comp: 'CEO at Elite Provider Services',
         img: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000',
         desc: '"Managing commissions used to take a full day every week. Now, it\'s done instantly and our providers can see their earnings right on their phones. Incredible software."'
     },
@@ -30,7 +30,7 @@ export const FeedbackItem = [
         title: 'Layla Hassan',
         comp: 'Customer Success Lead at QuickTow',
         img: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1000',
-        desc: '"The visibility WNCH gives us into our fleet\'s performance is incredible. The analytics dashboard tells us exactly where we need to improve our dispatching workflows."'
+        desc: '"The visibility WNCH gives us into our fleet\'s performance is incredible. The analytics dashboard tells us exactly where we need to improve our provider matching workflows."'
     },
     {
         title: 'Michael Brown',

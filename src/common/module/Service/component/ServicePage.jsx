@@ -23,7 +23,7 @@ export default function ServicePage() {
       </div>
       <div className="flex justify-center items-center flex-col">
         <p className="text-base md:text-2xl text-neutral-500 md:w-[70%] text-center">
-          Towing / Recovery / Dispatch / Billing
+          Towing / Recovery / Provider / Billing
         </p>
       </div>
       <div className="py-10 mt-20 flex gap-10 justify-center flex-row flex-wrap relative">
@@ -37,7 +37,7 @@ export default function ServicePage() {
             Real-time fleet tracking
           </h2>
           <p className="text-base text-neutral-700 dark:text-neutral-400 mt-5 md:line-clamp-2 lg:line-clamp-4 line-clamp-4">
-            Locate the nearest driver and dispatch jobs instantly with our advanced GPS tracking and intelligent route optimization. Save fuel and increase daily call volume.
+            Locate the nearest driver and assign jobs instantly with our advanced GPS tracking and intelligent route optimization. Save fuel and increase daily call volume.
           </p>
         </ComponentTransition>
         <ComponentTransition
@@ -45,8 +45,8 @@ export default function ServicePage() {
           className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=800"
-            alt="Header Image"
+            src="https://plus.unsplash.com/premium_photo-1661306409866-18a31687d71b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHRvd2luZyUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D"
+            alt="Smart Routing & GPS Image"
             width={800}
             height={400}
             loading="lazy"
@@ -103,8 +103,8 @@ export default function ServicePage() {
           className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="https://images.unsplash.com/photo-1519003300449-424ad0405076?q=80&w=800"
-            alt="Header Image"
+            src="https://images.unsplash.com/photo-1698998882426-39a6609ab10a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRvd2luZyUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D"
+            alt="Analytics & Reporting Image"
             width={800}
             height={400}
             loading="lazy"
@@ -171,31 +171,7 @@ export default function ServicePage() {
           </p>
         </ComponentTransition>
 
-        <ComponentTransition
-          delay={0.2}
-          className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
-        >
-          <Image
-            src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=800"
-            alt="API Integrations"
-            width={800}
-            height={400}
-            loading="lazy"
-            className="w-full h-full object-cover"
-          />
-        </ComponentTransition>
-        <ComponentTransition className="w-full overflow-hidden px-10 py-5 md:basis-[30%] h-[300px] bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
-          <FaPlug size={50} className="text-[#8DC421]" />
-          <h1 className="text-2xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-            API & Integrations
-          </h1>
-          <h2 className="text-sm text-neutral-800 dark:text-neutral-300">
-            Connect everything
-          </h2>
-          <p className="text-base text-neutral-700 dark:text-neutral-400 mt-5 md:line-clamp-2 lg:line-clamp-4 line-clamp-4">
-            Seamlessly connect WNCH with your existing accounting software, CRMs, and motor clubs. Eliminate double data entry and streamline your workflow across platforms.
-          </p>
-        </ComponentTransition>
+
 
         <ComponentTransition
           delay={0.1}
@@ -226,7 +202,7 @@ export default function ServicePage() {
             Scale your business
           </h2>
           <p className="text-sm text-neutral-700 line-clamp-3 dark:text-neutral-400 mt-3">
-            Manage multiple impound lots, dispatch centers, and regional fleets from a single unified dashboard with advanced permissions.
+            Manage multiple impound lots, provider centers, and regional fleets from a single unified dashboard with advanced permissions.
           </p>
         </ComponentTransition>
 

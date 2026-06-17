@@ -29,7 +29,7 @@ const CardFaq = () => {
             24/7 Priority Support
           </h1>
           <p className="text-base mb-10 text-neutral-700 mt-2 max-xl:line-clamp-5 dark:text-neutral-300">
-            Can't find the answers you're looking for in the documentation? Our dedicated Customer Success team is available around the clock to help you configure your dispatch board, structure your pricing, and get your fleet running smoothly.
+            Can't find the answers you're looking for in the documentation? Our dedicated Customer Success team is available around the clock to help you configure your provider dashboard, structure your pricing, and get your fleet running smoothly.
           </p>
           <Link href="/contact">
             <Buttons className="!px-10 " title="Contact Support" />

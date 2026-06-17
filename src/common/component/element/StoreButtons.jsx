@@ -7,7 +7,7 @@ export default function StoreButtons({ className = "", light = false }) {
   const btnClass = `flex items-center gap-3 px-5 py-2.5 rounded-xl border transition-all duration-300 hover:scale-[1.02] active:scale-95 ${
     light 
       ? "bg-white border-neutral-200 text-black hover:shadow-lg" 
-      : "bg-black border-neutral-800 text-white hover:bg-neutral-900"
+      : "bg-wnch-blue border-wnch-blue text-white hover:opacity-90"
   }`;
 
   return (

@@ -30,7 +30,8 @@ export default function Pricing() {
       <Link href="/solution" className="w-full rounded-full">
         <Button
           title="View All Solution"
-          className="hover:!bg-neutral-950 hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black w-full py-5"
+          className="hover:!bg-wnch-blue transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 hover:outline-wnch-blue dark:hover:outline-wnch-blue dark:!text-white !text-black w-full py-5 before:!bg-white"
+          textClassName="group-hover:!text-black"
         />
       </Link>
     </ComponentTransition>

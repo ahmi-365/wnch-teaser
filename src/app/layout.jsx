@@ -8,8 +8,8 @@ import { Providers } from '@/common/component/element/Providers'
 const plus_Jakarta_Sans = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'WNCH Dispatch Hub',
-  description: 'The ultimate dispatch platform for towing and roadside assistance.',
+  title: 'WNCH Provider Hub',
+  description: 'The ultimate provider platform for towing and roadside assistance.',
   icons: {
     icon: '/Icon.png',
   },

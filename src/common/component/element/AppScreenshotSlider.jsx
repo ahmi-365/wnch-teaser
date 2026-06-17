@@ -67,7 +67,6 @@ export function AppScreenshotSlider({
                   </div>
                 )}
               </div>
-              <p className="mt-6 text-sm font-semibold text-neutral-600 dark:text-neutral-400 tracking-wide uppercase">{slide.caption}</p>
             </div>
           ))}
         </div>

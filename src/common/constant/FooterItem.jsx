@@ -20,7 +20,7 @@ export const FooterItem = [
     {
         title: 'Solutions',
         child_1: {
-            title: 'Smart Dispatching',
+            title: 'Smart Provider Matching',
             href: '/services',
         },
         child_2: {

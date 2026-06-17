@@ -11,7 +11,7 @@ export default function CustomerPage() {
   const features = [
     {
       icon: <FaBolt size={30} className="text-[#8DC421]" />,
-      title: "Instant Dispatch",
+      title: "Instant Provider",
       body: "Your request is pushed to nearby verified providers the moment you submit. Average response under 8 minutes.",
     },
     {
@@ -63,7 +63,7 @@ export default function CustomerPage() {
   return (
     <div className="w-full flex flex-col justify-center items-center overflow-x-hidden">
       {/* Hero Section */}
-      <section className="w-full max-w-[1500px] px-5 lg:px-10 mt-32 md:mt-40 mb-20 flex flex-col lg:flex-row items-center justify-between relative gap-10">
+      <section className="w-full max-w-[1500px] px-5 lg:px-10 mt-24 md:mt-28 mb-10 flex flex-col lg:flex-row items-center justify-between relative gap-8">
         <div className="absolute top-0 left-0 w-full h-full z-[-1] opacity-50 glowbg mix-blend-screen pointer-events-none"></div>
         <div className="absolute w-[90%] top-[10%] h-[500px] z-[-2]">
           <Rails />
@@ -78,7 +78,7 @@ export default function CustomerPage() {
             Customer App
           </div>
           <H1
-            className="!leading-[1.1em] dark:bg-gradient-to-r from-white from-50% to-[#9c9c9c] bg-text bg-clip-text text-transparent text-5xl md:text-6xl xl:text-7xl font-bold pb-4 text-left"
+            className="!leading-[1.1em] dark:bg-gradient-to-r from-white from-50% to-[#9c9c9c] bg-text bg-clip-text text-transparent text-4xl md:text-5xl xl:text-6xl font-bold pb-4 text-left"
             title="Help is minutes away. Wherever you are."
           />
           <p className="text-xl mt-6 dark:text-neutral-300 text-neutral-700 leading-relaxed max-w-xl mb-10">
@@ -87,7 +87,7 @@ export default function CustomerPage() {
 
           <StoreButtons light={true} />
 
-          <div className="mt-14 flex gap-8 md:gap-12 items-center">
+          <div className="mt-8 flex gap-8 md:gap-12 items-center">
             <div>
               <div className="text-3xl xl:text-4xl font-extrabold text-[#8DC421]">8 min</div>
               <div className="text-xs font-semibold text-neutral-500 mt-2 uppercase tracking-wider">Avg Response</div>
@@ -105,9 +105,9 @@ export default function CustomerPage() {
           </div>
         </div>
 
-        <div className="lg:w-1/2 flex justify-center lg:justify-end relative z-10 mt-10 lg:mt-0">
-          <div className="relative w-[320px] md:w-[400px] xl:w-[450px] h-auto rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-[0_0_80px_rgba(141,196,33,0.4)] ring-1 ring-white/10">
-            <img src="/assets/customer-app-screen.png" alt="Customer App Preview" className="w-full h-auto" />
+        <div className="lg:w-1/2 flex justify-center lg:justify-center relative z-10 mt-8 lg:mt-0">
+          <div className="relative w-[180px] md:w-[220px] xl:w-[260px] h-auto rounded-[1.25rem] md:rounded-[1.5rem] overflow-hidden shadow-[0_0_80px_rgba(141,196,33,0.4)] ring-1 ring-white/10">
+            <img src="/assets/customer/1.jpeg" alt="Customer App Preview" className="w-full h-auto" />
           </div>
         </div>
       </section>

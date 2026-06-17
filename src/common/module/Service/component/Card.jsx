@@ -11,10 +11,10 @@ const Card = () => {
       <ComponentTransition className="w-full overflow-hidden px-10 py-5 md:basis-[30%] h-[300px] bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
         <WiDayCloudy size={50} />
         <h1 className="text-2xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-          Intelligent Dispatch
+          Intelligent Provider
         </h1>
         <h2 className="text-sm text-neutral-800 dark:text-neutral-300">
-          Elevate Your Fleet with WNCH Dispatch Hub!
+          Elevate Your Fleet with WNCH Provider Hub!
         </h2>
         <p className="text-base text-neutral-700 dark:text-neutral-400 mt-5 md:line-clamp-2 lg:line-clamp-4 line-clamp-3">
           Unveil the future of efficiency with WNCH – a cutting-edge
@@ -39,7 +39,7 @@ const Card = () => {
         className="w-full h-auto object-cover md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
         <Image
-          src="https://images.unsplash.com/photo-1519003722824-194d4455a60c"
+          src="https://images.unsplash.com/photo-1673187139211-1e7ec3dd60ec?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dG93aW5nJTIwY2FyfGVufDB8fDB8fHww"
           alt="Tow Truck Flatbed"
           width={400}
           height={400}
@@ -59,7 +59,7 @@ const Card = () => {
           Your Gateway to Operational Excellence
         </h2>
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-          Dive into the future of efficient dispatch operations with WNCH
+          Dive into the future of efficient provider operations with WNCH
           Hub. Our solution is crafted to streamline your towing experience
         </p>
       </ComponentTransition>
@@ -77,7 +77,7 @@ const Card = () => {
           WNCH Hub - Redefining Productivity
         </h2>
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-          Tailored dispatch solutions to meet your specific towing business needs and goals.
+          Tailored provider solutions to meet your specific towing business needs and goals.
         </p>
       </ComponentTransition>
 
@@ -93,7 +93,7 @@ const Card = () => {
           Your Gateway to Fleet Excellence
         </h2>
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-          Simplify your dispatch experience with WNCH, where optimization meets
+          Simplify your provider experience with WNCH, where optimization meets
           success
         </p>
       </ComponentTransition>
@@ -109,7 +109,7 @@ const Card = () => {
           WNCH - Your Strategic Partner!
         </h2>
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
-          WNCH Dispatch Hub is more than a software; it&rsquo;s your strategic partner in achieving operational excellence
+          WNCH Provider Hub is more than a software; it&rsquo;s your strategic partner in achieving operational excellence
         </p>
       </ComponentTransition>
       <ComponentTransition
@@ -148,8 +148,8 @@ const Card = () => {
         className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
         <Image
-          src="https://images.unsplash.com/photo-1586864387967-d02ef85d93e8"
-          alt="Heavy Tow Truck"
+          src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7"
+          alt="WNCH Delivery Truck"
           width={400}
           height={400}
           loading="lazy"
@@ -163,7 +163,7 @@ const Card = () => {
       >
         <FaCode size={40} />
         <h1 className="text-xl font-bold py-2 text-neutral-800 dark:text-neutral-100">
-          Fast-Track Your Dispatching
+          Fast-Track Provider Assistance
         </h1>
         <h2 className="text-sm text-neutral-700 dark:text-neutral-300">
           WNCH Accelerates Your Operations!
