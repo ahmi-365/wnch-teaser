@@ -12,10 +12,10 @@ export const FooterItem = [
             title: 'Our Solutions',
             href: '/solution',
         },
-        child_3: {
-            title: 'Our Blog',
-            href: '/blog',
-        },
+        // child_3: {
+        //     title: 'Our Blog',
+        //     href: '/blog',
+        // },
     },
     {
         title: 'Solutions',

@@ -6,7 +6,7 @@ export const BlogContent = [
     id: 1,
     bigTitle: "The Future of Towing Provider",
     slug: "future-of-towing-provider",
-    img: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?q=80&w=1000",
+    img: "https://images.unsplash.com/photo-1589560256346-adca6e065943?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fHRvd2luZ3xlbnwwfHwwfHx8MA%3D%3D",
     title: "The Future of Towing Provider: Automation & AI",
     desc: "Discover how AI and automated routing are transforming the towing industry. Learn how modern provider software reduces response times, minimizes manual entry, and maximizes fleet efficiency for operators of all sizes.",
     content: (
@@ -107,7 +107,7 @@ export const BlogContent = [
     id: 2,
     bigTitle: "5 Ways to Optimize Your Fleet",
     slug: "optimize-your-fleet",
-    img: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1000",
+    img: "https://images.unsplash.com/photo-1555421689-d68471e189f2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fG9wdGltaXphdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
     title: "5 Ways to Optimize Your Towing Fleet",
     desc: "Learn practical strategies to track your vehicles in real-time, streamline your operations, and boost your bottom line. We break down the top five methods successful fleets use to stay ahead.",
     content: (
@@ -213,7 +213,7 @@ export const BlogContent = [
     id: 3,
     bigTitle: "Why Automated Billing is a Game Changer",
     slug: "automated-billing-game-changer",
-    img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1000",
+    img: "https://images.unsplash.com/photo-1735825764485-93a381fd5779?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmlsbGluZ3xlbnwwfHwwfHx8MA%3D%3D",
     title: "Why Automated Billing is a Game Changer",
     desc: "Say goodbye to manual invoicing and missing payments. See how automated wallets, instant settlements, and direct accounting integrations empower your operators and protect your revenue.",
     content: (
@@ -304,7 +304,7 @@ export const BlogContent = [
     id: 4,
     bigTitle: "Building a Better Customer Experience",
     slug: "better-customer-experience",
-    img: "https://images.unsplash.com/photo-1494905998402-395d579af36f?q=80&w=1000",
+    img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y3VzdG9tZXIlMjByZWxhdGlvbnNoaXB8ZW58MHx8MHx8fDA%3D",
     title: "Building a Better Customer Experience",
     desc: "From instant tracking links to precise ETA calculations, learn how to keep your customers informed and satisfied during stressful roadside emergencies.",
     content: (

@@ -148,12 +148,12 @@ const Card = () => {
         className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
       >
         <Image
-          src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7"
+          src="https://images.unsplash.com/photo-1611083203153-1f0f49fcf093?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHRvdyUyMHRydWNrZXN8ZW58MHx8MHx8fDA%3D"
           alt="WNCH Delivery Truck"
           width={400}
           height={400}
           loading="lazy"
-          className="w-full h-full object-cover scale-110"
+          className="w-full h-full object-cover translate-y-[-35%]"
         />
       </ComponentTransition>
 

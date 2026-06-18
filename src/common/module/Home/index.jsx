@@ -3,7 +3,7 @@ import Hero from '../Hero'
 import Service from '../Service'
 import Solution from '../Solution'
 import Faq from '../Faq'
-import Blog from '../Blog'
+// import Blog from '../Blog'
 import Feedback from '../Feedback'
 import Feature from '../Feature/Feature'
 import Interest from '../EndSection/Interest'
@@ -16,7 +16,7 @@ const Homepage = () => {
       <Service />
       <Solution />
       <Faq />
-      <Blog/>
+      {/* <Blog/> */}
       <Feedback/>
       <Interest />
     </div>

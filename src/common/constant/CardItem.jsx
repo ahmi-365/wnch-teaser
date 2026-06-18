@@ -7,39 +7,39 @@ export const CardItem = [
         content: "Discover a world of effortless provider matching with WNCH Hub. Our solution streamlines your assigning processes."
     },
     {
-        img: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=800',
+        img: '/mainmap.png',
         title: "Optimized Routing",
         content: "Optimize your routes with WNCH Hub. Experience a powerhouse of features that elevate driver efficiency and effectiveness."
     },
     {
-        img: 'https://images.unsplash.com/photo-1519003722824-194d4455a60c?q=80&w=800',
+        img: 'https://images.unsplash.com/photo-1579616043939-95d87a6e8512?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dHJhY2tpbmd8ZW58MHx8MHx8fDA%3D',
         title: "24/7 Fleet Tracking",
         content: "Embrace unparalleled visibility with WNCH's live fleet tracking. Stay connected whether in the office or on the go."
     },
     {
-        img: 'https://images.unsplash.com/photo-1494905998402-395d579af36f?q=80&w=800',
+        img: '/driverapp.png',
         title: "Driver Mobile App",
         content: "Empower your drivers with the WNCH mobile app, where user-centric design meets powerful functional operations."
     },
     {
-        img: 'https://images.unsplash.com/photo-1686966933735-305bd8fe0a77?q=80&w=800',
+        img: 'https://images.unsplash.com/photo-1609701964451-659136e5d30c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fHRvd2luZ3xlbnwwfHwwfHx8MA%3D%3D',
         title: "Tailored to Your Fleet",
         content: "Your success, your way. WNCH Hub is fully customizable to meet your unique towing business needs and workflows."
     },
     {
-        img: 'https://images.unsplash.com/photo-1601508836900-ee2aa7840a7b?q=80&w=800',
+        img: 'https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFuYWx5dGljc3xlbnwwfHwwfHx8MA%3D%3D',
         title: "Performance Analytics",
         content: "Unlock the power of data-driven insights with WNCH's analytical reports for your towing business."
     }
 ]
 export const SolutionAllItem = [
     {
-        img: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=800',
+        img: 'https://images.unsplash.com/photo-1781606989068-50d248c5b22b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIxfHx0d28lMjBtb2JpbGVzfGVufDB8fDB8fHww',
         title: "Smart Provider Matching",
         content: "Revolutionize your provider operations by automating job assignments based on multiple critical factors. The system intelligentiy matches incoming calls with the closest available driver, ensuring optimal routes and reducing deadhead miles. With an intuitive drag-and-drop calendar and priority queuing, your providers can handle high volumes of calls effortlessly during peak hours, significantly reducing customer wait times and maximizing your fleet's daily revenue potential."
     },
     {
-        img: 'https://images.unsplash.com/photo-1601508836900-ee2aa7840a7b?q=80&w=800',
+        img: 'https://images.unsplash.com/photo-1548345680-f5475ea5df84?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3BzJTIwdHJhY2tpbmd8ZW58MHx8MHx8fDA%3D',
         title: "GPS Fleet Tracking",
         content: "Take complete control of your fleet with high-precision, real-time GPS tracking embedded directly into your main dashboard. Monitor every truck's exact location, current speed, and heading on a live map interface. Not only does this allow providers to make split-second decisions, but it also creates historical breadcrumb trails to verify routes taken, analyze driver behavior, prevent unauthorized vehicle use, and seamlessly resolve any customer disputes regarding arrival times."
     },
@@ -59,7 +59,7 @@ export const SolutionAllItem = [
         content: "Navigating impound lot compliance has never been easier. Our comprehensive impound module tracks every vehicle from the moment it crosses the gate. Log inventory, calculate daily storage fees automatically, and attach digital release forms. The system can even generate and track certified letters to lienholders and owners to satisfy legal requirements, keeping your auction pipeline organized and completely compliant with local and state regulations."
     },
     {
-        img: 'https://images.unsplash.com/photo-1512428559087-560fa5ceab42?q=80&w=800',
+        img: '/driverapp.png',
         title: "Driver Mobile App",
         content: "Empower your drivers with a powerful companion app designed specifically for the road. The WNCH mobile app provides turn-by-turn navigation, digital job tickets, and one-tap status updates. Drivers can capture pre-existing damage photos, log detailed job notes, and collect electronic customer signatures directly on their touchscreen. The app operates offline when out of cell range and syncs automatically once a connection is restored."
     },

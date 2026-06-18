@@ -16,7 +16,7 @@ export default function TheChallenge() {
       </div>
       <div className="md:basis-[45%] w-full h-[400px] overflow-hidden rounded-3xl">
         <Image
-          src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=1000&auto=format&fit=crop"
+          src="https://images.unsplash.com/photo-1687867451910-28941a460f35?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRvd2luZyUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D"
           alt="Traffic Jam Chaos"
           width={600}
           height={400}

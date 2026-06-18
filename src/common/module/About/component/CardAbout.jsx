@@ -13,15 +13,15 @@ const CardAbout = () => {
       <div className="absolute  z-[-9] glowbg w-[100%] top-[100px] md:w-[500px] h-[400px]  left-0 "></div>
       <ComponentTransition delay={0.1} className="w-full h-[20%]  md:basis-[60%] overflow-hidden rounded-3xl">
         <div className="w-full h-[500px] rounded-3xl overflow-hidden">
-        <Image
-          src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=1000&auto=format&fit=crop"
-          alt="Tow Truck Fleet"
-          width={400}
-          height={400}
-          priority
-          className="w-full h-auto object-cover rounded-3xl"
+          <Image
+            src="/abouthero.png"
+            alt="Tow Truck Fleet"
+            width={400}
+            height={400}
+            priority
+            className="w-full h-full object-cover rounded-3xl transition-transform duration-700 hover:scale-105 cursor-pointer"
           />
-          </div>
+        </div>
         <div className="mt-5 py-5 gap-5 h-full ">
           <div className="w-full px-10 py-10 h-full bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
             <FaBullseye size={50} />
@@ -45,21 +45,21 @@ const CardAbout = () => {
           </p>
         </div>
         <div className="w-full overflow-hidden h-full mt-10  bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
-        <div className="w-full h-[380px] rounded-3xl overflow-hidden">
-        <Image
-          src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=1000&auto=format&fit=crop"
-          alt="Provider Technology"
-          width={400}
-          height={400}
-          priority
-          className="w-full h-auto object-cover rounded-3xl"
-          />
+          <div className="w-full h-full rounded-3xl overflow-hidden">
+            <Image
+              src="/aboutmisson.png"
+              alt="Provider Technology"
+              width={400}
+              height={400}
+              priority
+              className="w-full h-full object-cover rounded-3xl scale-[1.1]"
+            />
           </div>
         </div>
       </ComponentTransition>
       <TheChallenge />
       <OurStory />
-      <OurTeam/>
+      <OurTeam />
 
     </div>
   );

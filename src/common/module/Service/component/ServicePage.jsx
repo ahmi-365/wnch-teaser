@@ -45,25 +45,12 @@ export default function ServicePage() {
           className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="https://plus.unsplash.com/premium_photo-1661306409866-18a31687d71b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHRvd2luZyUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D"
+            src="/servicehero.png"
             alt="Smart Routing & GPS Image"
             width={800}
             height={400}
             loading="lazy"
-            className="w-full h-full object-cover"
-          />
-        </ComponentTransition>
-        <ComponentTransition
-          delay={0.1}
-          className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
-        >
-          <Image
-            src="https://images.unsplash.com/photo-1601508836900-ee2aa7840a7b?q=80&w=800"
-            alt="Header Image"
-            width={400}
-            height={400}
-            loading="lazy"
-            className="w-full h-[280px] object-cover scale-110"
+            className="w-full h-full object-cover translate-y-[-13%]"
           />
         </ComponentTransition>
         <ComponentTransition
@@ -80,6 +67,19 @@ export default function ServicePage() {
           <p className="text-sm text-neutral-700 line-clamp-3 dark:text-neutral-400 mt-3">
             Generate professional invoices instantly, track commissions automatically, and get paid faster with our integrated payment gateway.
           </p>
+        </ComponentTransition>
+        <ComponentTransition
+          delay={0.1}
+          className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
+        >
+          <Image
+            src="/automatedbilling.png"
+            alt="Automated Billing Image"
+            width={400}
+            height={400}
+            loading="lazy"
+            className="w-full h-[280px] object-cover scale-110"
+          />
         </ComponentTransition>
 
         <ComponentTransition
@@ -103,7 +103,7 @@ export default function ServicePage() {
           className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="https://images.unsplash.com/photo-1698998882426-39a6609ab10a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRvd2luZyUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D"
+            src="https://images.unsplash.com/photo-1555421689-d68471e189f2?w=600&auto=format&fit=crop&q=60"
             alt="Analytics & Reporting Image"
             width={800}
             height={400}
@@ -124,13 +124,13 @@ export default function ServicePage() {
           </p>
         </ComponentTransition>
 
-      
+
         <ComponentTransition
           delay={0.1}
           className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="https://images.unsplash.com/photo-1494905998402-395d579af36f?q=80&w=800"
+            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&auto=format&fit=crop&q=60"
             alt="Header Image"
             width={400}
             height={400}
@@ -211,7 +211,7 @@ export default function ServicePage() {
           className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=800"
+            src="https://images.unsplash.com/photo-1589560256346-adca6e065943?w=600&auto=format&fit=crop&q=60"
             alt="Multi-location"
             width={400}
             height={400}

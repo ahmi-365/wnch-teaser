@@ -21,8 +21,8 @@ export const NavigationItem = [
         src: '/about',
         title: 'About'
     },
-    {
-        src: '/blog',
-        title: 'Blog'
-    },
+    // {
+    //     src: '/blog',
+    //     title: 'Blog'
+    // },
 ]

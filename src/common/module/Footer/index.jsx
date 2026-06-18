@@ -40,16 +40,18 @@ const Footer = () => {
                 </TextAnimated>
               </Link>
             </div>
-            <div className="md:px-2 md:py-2 px-2 py-[4px] flex">
-              <Link href={item.child_3.href} className="">
-                <TextAnimated
-                  delay={1}
-                  className=" text-base overflow-hidden text-neutral-700 dark:text-neutral-300 hover:text-neutral-900 hover:dark:text-neutral-800"
-                >
-                  {item.child_3.title}
-                </TextAnimated>
-              </Link>
-            </div>
+            {item.child_3 && (
+              <div className="md:px-2 md:py-2 px-2 py-[4px] flex">
+                <Link href={item.child_3.href} className="">
+                  <TextAnimated
+                    delay={1}
+                    className=" text-base overflow-hidden text-neutral-700 dark:text-neutral-300 hover:text-neutral-900 hover:dark:text-neutral-800"
+                  >
+                    {item.child_3.title}
+                  </TextAnimated>
+                </Link>
+              </div>
+            )}
           </ComponentTransition>
         ))}
       </div>
