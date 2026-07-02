@@ -5,7 +5,7 @@ import H1 from "@/common/component/element/H1";
 import Rails from "@/common/component/element/Rails";
 import StoreButtons from "@/common/component/element/StoreButtons";
 import { AppScreenshotSlider } from "@/common/component/element/AppScreenshotSlider";
-import { FaUserPlus, FaFileSignature, FaShieldAlt, FaRocket, FaCheckCircle } from "react-icons/fa";
+import { FaUserPlus, FaFileSignature, FaShieldAlt, FaRocket, FaCheckCircle, FaApple, FaGooglePlay } from "react-icons/fa";
 
 export default function ProviderPage() {
   const steps = [
@@ -32,36 +32,69 @@ export default function ProviderPage() {
     { src: "/assets/provider/9.jpeg", caption: "Profile & Fleet" },
   ];
 
+  const heroBullets = [
+    "Accept jobs instantly from your phone",
+    "Automated billing — no manual invoices",
+    "Real-time GPS routing to every call",
+    "Motor club integrations (Agero, AAA, Geico)",
+    "Transparent commission — paid on every job",
+    // "Join the GCC\'s fastest-growing fleet network",
+  ];
+
   return (
     <div className="w-full flex flex-col justify-center items-center overflow-x-hidden">
-      {/* Hero Section */}
-      <section className="w-full max-w-[1500px] px-5 lg:px-10 mt-24 md:mt-28 mb-10 flex flex-col lg:flex-row items-center justify-between relative gap-8">
-        <div className="absolute top-0 left-0 w-full h-full z-[-1] opacity-50 glowbg mix-blend-screen pointer-events-none"></div>
-        <div className="absolute w-[90%] top-[10%] h-[500px] z-[-2]">
-          <Rails />
-          <div className="bg-gradient-to-b from-white dark:from-black from-20% to-transparent absolute inset-0 "></div>
-          <div className="bg-gradient-to-l from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-          <div className="bg-gradient-to-r from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-          <div className="bg-gradient-to-t from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-        </div>
+      {/* Hero Banner - drivu style */}
+      <section className="w-full mt-[72px]">
+        <div className="w-full bg-[#1a3bc7] px-6 md:px-16 xl:px-24 py-8 md:py-10 h-[calc(100vh-72px)] flex flex-col lg:flex-row items-center justify-between gap-6 relative overflow-hidden">
+          {/* Decorative circles */}
+          <div className="absolute -top-20 -left-20 w-72 h-72 bg-white/10 rounded-full pointer-events-none" />
+          <div className="absolute bottom-[-60px] right-[30%] w-48 h-48 bg-white/10 rounded-full pointer-events-none" />
 
-        <div className="lg:w-1/2 flex flex-col items-start text-left z-10">
-          <div className="border-[1px] rounded-full border-[#1a3bc7] py-2 px-5 mb-6 bg-[#1a3bc7]/10 text-[#1a3bc7] dark:text-[#5c80ff] font-semibold text-sm">
-            Provider App
+          {/* Left: Text + bullets + badges */}
+          <div className="flex flex-col items-start text-left z-10 lg:w-1/2">
+            <div className="inline-block bg-white/20 text-white font-bold text-xs uppercase tracking-widest px-4 py-1.5 rounded-full mb-4 mt-4 md:mt-6">
+              Provider App
+            </div>
+            <h1 className="text-2xl md:text-4xl xl:text-5xl font-extrabold text-white leading-tight mb-4">
+              Grow Your Fleet Business<br />With WNCH
+            </h1>
+            <ul className="space-y-2 mb-5">
+              {heroBullets.map((b, i) => (
+                <li key={i} className="flex items-center gap-3 text-white text-sm md:text-base font-medium">
+                  <FaCheckCircle className="text-white shrink-0" size={15} />
+                  {b}
+                </li>
+              ))}
+            </ul>
+            <p className="text-white/80 text-xs mb-4">Available on iPhone &amp; Android devices</p>
+            <div className="flex flex-wrap gap-3">
+              <button className="flex items-center gap-2 bg-black text-white px-4 py-2.5 rounded-xl hover:scale-105 transition-transform shadow-lg">
+                <FaApple size={22} />
+                <div className="flex flex-col items-start leading-none">
+                  <span className="text-[9px] uppercase">Download on the</span>
+                  <span className="text-xs font-bold">App Store</span>
+                </div>
+              </button>
+              <button className="flex items-center gap-2 bg-black text-white px-4 py-2.5 rounded-xl hover:scale-105 transition-transform shadow-lg">
+                <FaGooglePlay size={19} />
+                <div className="flex flex-col items-start leading-none">
+                  <span className="text-[9px] uppercase">GET IT ON</span>
+                  <span className="text-xs font-bold">Google Play</span>
+                </div>
+              </button>
+            </div>
           </div>
-          <H1
-            className="!leading-[1.1em] dark:bg-gradient-to-r from-white from-50% to-[#9c9c9c] bg-text bg-clip-text text-transparent text-4xl md:text-5xl xl:text-6xl font-bold pb-4 text-left"
-            title="Grow Your Fleet Business With WNCH"
-          />
-          <p className="text-xl mt-6 dark:text-neutral-300 text-neutral-700 leading-relaxed max-w-xl mb-10">
-            Join the GCC's fastest-growing provider network. More jobs, smarter tools, automated payments.
-          </p>
-          <StoreButtons light={false} className="mb-4" />
-        </div>
 
-        <div className="lg:w-1/2 flex justify-center lg:justify-center relative z-10 mt-8 lg:mt-0">
-          <div className="relative w-[180px] md:w-[220px] xl:w-[260px] h-auto rounded-[1.25rem] md:rounded-[1.5rem] overflow-hidden shadow-[0_0_80px_rgba(26,59,199,0.4)] ring-1 ring-white/10">
-            <img src="/assets/provider/1.jpeg" alt="Provider App Preview" className="w-full h-auto" />
+          {/* Right: Phone mockups - top visible, bottom overflows */}
+          <div className="z-10 lg:w-1/2 flex justify-end items-start h-full pt-0 -mt-6 relative">
+            {/* Back phone - smaller, behind — original position */}
+            <div className="absolute left-4 top-8 w-[140px] md:w-[180px] xl:w-[210px] rounded-[2.5rem] overflow-hidden shadow-2xl ring-4 ring-white/20 z-0">
+              <img src="/assets/provider/2.jpeg" alt="Provider App Screen 2" className="w-full h-auto" />
+            </div>
+            {/* Front phone - large, prominent */}
+            <div className="relative w-[200px] md:w-[260px] xl:w-[310px] rounded-[2.5rem] overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.4)] ring-4 ring-white/40 z-10">
+              <img src="/assets/provider/1.jpeg" alt="Provider App Screen 1" className="w-full h-auto" />
+            </div>
           </div>
         </div>
       </section>

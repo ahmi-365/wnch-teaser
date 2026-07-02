@@ -36,51 +36,50 @@ export const SolutionAllItem = [
     {
         img: 'https://images.unsplash.com/photo-1781606989068-50d248c5b22b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIxfHx0d28lMjBtb2JpbGVzfGVufDB8fDB8fHww',
         title: "Smart Provider Matching",
-        content: "Revolutionize your provider operations by automating job assignments based on multiple critical factors. The system intelligentiy matches incoming calls with the closest available driver, ensuring optimal routes and reducing deadhead miles. With an intuitive drag-and-drop calendar and priority queuing, your providers can handle high volumes of calls effortlessly during peak hours, significantly reducing customer wait times and maximizing your fleet's daily revenue potential."
+        content: "Automate job assignments based on driver location, equipment type, and traffic data. Reduce deadhead miles and get the right truck on scene faster."
     },
     {
-        img: 'https://images.unsplash.com/photo-1548345680-f5475ea5df84?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3BzJTIwdHJhY2tpbmd8ZW58MHx8MHx8fDA%3D',
-        title: "GPS Fleet Tracking",
-        content: "Take complete control of your fleet with high-precision, real-time GPS tracking embedded directly into your main dashboard. Monitor every truck's exact location, current speed, and heading on a live map interface. Not only does this allow providers to make split-second decisions, but it also creates historical breadcrumb trails to verify routes taken, analyze driver behavior, prevent unauthorized vehicle use, and seamlessly resolve any customer disputes regarding arrival times."
+        img: 'https://images.unsplash.com/photo-1548345680-f5475ea5df84?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3BzJTIwdHJhY2tpbmd8ZW58MHx8MHx8fDA%3D', title: "GPS Fleet Tracking",
+        content: "Monitor every truck's location, speed, and heading on a live map. Create historical trails to verify routes and resolve disputes."
     },
     {
         img: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=800',
         title: "Digital Invoicing",
-        content: "Ditch the carbon-copy paper pads and transition to a fully digital invoicing ecosystem. Generate professional, branded invoices directly from the provider screen or mobile app the moment a job is completed. Accept credit card payments securely on-site or send quick payment links via SMS. The system automatically categorizes services, calculates taxes, and syncs directly with accounting software like QuickBooks and Xero to eliminate double data entry and accounting errors."
+        content: "Generate branded invoices on job completion, accept payments on-site or via SMS, and sync directly with QuickBooks and Xero."
     },
     {
-        img: 'https://images.unsplash.com/photo-1698998882426-39a6609ab10a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0',
+        img: 'https://carrecoverydubai.co/assets/hero-car-towing-pillar-800.webp',
         title: "Motor Club Integrations",
-        content: "Stop wasting time manually typing in call details from motor club emails and portals. WNCH Hub seamlessly integrates with major motor clubs (like Agero, AAA, and Geico) via API, pulling call details, customer information, and provider instructions directly into your active queue. Approve or decline calls with a single click, and automatically push status updates and ETAs back to the motor club in real-time to maintain exceptional provider scores."
+        content: "Seamlessly connect with Agero, AAA, Geico, and more via API. Auto-pull call details and push status updates with a single click."
     },
     {
-        img: 'https://images.unsplash.com/photo-1494905998402-395d579af36f?q=80&w=800',
+        img: 'https://www.towingnearme.ae/_next/image?url=%2Fimages%2FIMG-20251017-WA0011.jpg&w=3840&q=75',
         title: "Impound Management",
-        content: "Navigating impound lot compliance has never been easier. Our comprehensive impound module tracks every vehicle from the moment it crosses the gate. Log inventory, calculate daily storage fees automatically, and attach digital release forms. The system can even generate and track certified letters to lienholders and owners to satisfy legal requirements, keeping your auction pipeline organized and completely compliant with local and state regulations."
+        content: "Track every vehicle from gate entry to release. Auto-calculate storage fees, generate certified letters, and stay fully compliant."
     },
     {
         img: '/driverapp.png',
         title: "Driver Mobile App",
-        content: "Empower your drivers with a powerful companion app designed specifically for the road. The WNCH mobile app provides turn-by-turn navigation, digital job tickets, and one-tap status updates. Drivers can capture pre-existing damage photos, log detailed job notes, and collect electronic customer signatures directly on their touchscreen. The app operates offline when out of cell range and syncs automatically once a connection is restored."
+        content: "Turn-by-turn navigation, digital job tickets, photo capture, and e-signatures. Works offline and syncs when back in range."
     },
     {
         img: 'https://images.unsplash.com/photo-1554224154-26032ffc0d07?q=80&w=800',
         title: "Commission Tracking",
-        content: "Take the headache out of payroll day with automated commission calculations. Whether you pay drivers based on a percentage of the gross, a flat rate per call, or complex tiered structures, WNCH Hub tracks it all automatically as jobs are closed. Generate comprehensive commission reports at the end of the week or month, providing complete transparency to your staff and ensuring your drivers are paid accurately and on time, every time."
+        content: "Support flat rate, percentage, hourly, or tiered commission structures. Auto-track earnings and generate payroll reports."
     },
     {
         img: 'https://images.unsplash.com/photo-1486006920555-c77dcf18193c?q=80&w=800',
         title: "Maintenance & Fuel",
-        content: "A broken down tow truck is losing money. Stay ahead of costly repairs with our built-in fleet maintenance module. Set up automated reminders for routine services like oil changes, brake inspections, and tire rotations based on mileage or date. Log fuel receipts to track consumption metrics, monitor repair expenses over the lifespan of each vehicle, and ensure your fleet remains safe, compliant, and ready to respond to any call."
+        content: "Automated reminders for routine services, fuel tracking, and repair cost monitoring to keep your fleet road-ready."
     },
     {
         img: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800',
         title: "Customer Notifications",
-        content: "Deliver a modern, Uber-like experience to motorists stranded on the side of the road. WNCH Hub automatically sends an SMS text message to the customer the moment a driver is assigned, providing an accurate ETA and a live tracking link. Customers can view the approaching truck on a map in real-time, drastically reducing the number of 'Where is my tow truck?' phone calls to your provider center and improving overall customer satisfaction."
+        content: "Auto-send SMS with a live tracking link when a driver is assigned. Customers see the truck approaching in real-time."
     },
     {
         img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800',
         title: "Advanced Reporting",
-        content: "Stop guessing and start making data-driven decisions to grow your business. Our advanced analytics dashboard provides deep insights into your operational performance. Filter reports by date, driver, account, or truck to analyze revenue streams, calculate average response times, and identify your most profitable accounts. Export beautiful, presentation-ready graphs or raw CSV files to share with stakeholders and keep your finger on the pulse of your towing company."
+        content: "Filter reports by date, driver, account, or truck. Export presentation-ready graphs or CSV files to drive data-backed decisions."
     },
 ]

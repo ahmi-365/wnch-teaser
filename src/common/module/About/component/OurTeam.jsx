@@ -11,7 +11,7 @@ export default function OurTeam() {
             Our Core Values
             </h2>
             <p className="max-w-[900px] text-neutral-700 dark:text-neutral-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
-            The principles that guide our development, shape our culture, and ensure we deliver the best possible platform for your towing business.
+            The principles that drive everything we build.
             </p>
           </div>
         </div>
@@ -23,7 +23,7 @@ export default function OurTeam() {
             </div>
             <h3 className="text-2xl font-bold mb-4 text-neutral-800 dark:text-neutral-100">Unwavering Reliability</h3>
             <p className="text-neutral-700 dark:text-neutral-400 leading-relaxed">
-              Your provider dashboard is the heart of your business. We engineer our platform for 99.99% uptime, ensuring you never miss a call, day or night.
+              Engineered for 99.99% uptime so you never miss a call, day or night.
             </p>
           </div>
 
@@ -33,7 +33,7 @@ export default function OurTeam() {
             </div>
             <h3 className="text-2xl font-bold mb-4 text-neutral-800 dark:text-neutral-100">Relentless Innovation</h3>
             <p className="text-neutral-700 dark:text-neutral-400 leading-relaxed">
-              We don't settle for the status quo. From AI-driven provider matching to predictive analytics, we continuously push the boundaries of what's possible.
+              From AI-driven matching to predictive analytics, we continuously push what's possible.
             </p>
           </div>
 
@@ -43,7 +43,7 @@ export default function OurTeam() {
             </div>
             <h3 className="text-2xl font-bold mb-4 text-neutral-800 dark:text-neutral-100">True Partnership</h3>
             <p className="text-neutral-700 dark:text-neutral-400 leading-relaxed">
-              We aren't just a software vendor; we are your technology partner. Our success is entirely dependent on the growth and efficiency of your fleet.
+              We're your technology partner. Our success depends on the growth of your fleet.
             </p>
           </div>
 

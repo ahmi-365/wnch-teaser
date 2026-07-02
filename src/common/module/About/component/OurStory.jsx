@@ -16,11 +16,8 @@ export default function OurStory() {
       </div>
       <div className="md:basis-[50%]">
         <h2 className="text-3xl font-bold mb-6 text-neutral-800 dark:text-neutral-100">Our Story & Solution</h2>
-        <p className="text-lg text-neutral-700 dark:text-neutral-300 mb-4 leading-relaxed">
-          We built WNCH Hub to solve these exact problems. Combining deep industry expertise with top-tier software engineering, we developed a cloud-native platform that centralizes the entire towing workflow into one intuitive interface.
-        </p>
         <p className="text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed">
-          By integrating real-time GPS fleet tracking, direct motor club API connections, and automated digital invoicing, we effectively eliminated the friction of manual provider matching. Today, WNCH Hub processes thousands of rescue operations daily, helping fleets scale their business, increase driver commissions, and get motorists back on the road safely and swiftly.
+          We built WNCH Hub to centralize the entire towing workflow. With real-time GPS tracking, motor club API integrations, and automated invoicing, we help fleets scale their business and get motorists back on the road faster.
         </p>
       </div>
     </ComponentTransition>

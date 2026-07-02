@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['images.unsplash.com', 'plus.unsplash.com', 'encrypted-tbn0.gstatic.com', 'media.istockphoto.com'],
+        domains: ['images.unsplash.com', 'plus.unsplash.com', 'encrypted-tbn0.gstatic.com', 'media.istockphoto.com', 'd2hucwwplm5rxi.cloudfront.net', 'carrecoverydubai.co', 'www.towingnearme.ae', 'javedcarrecoverydubai.com', '166recovery.com'],
       },
 }
 

@@ -18,8 +18,7 @@ const Faq = () => {
           FAQ & Documentation
         </h1>
         <p className="text-base md:text-2xl text-neutral-500 dark:text-neutral-300 md:w-[50%] text-center">
-          WNCH Hub provides complete entry to our knowledge base, provider API, and
-          documentation.
+          Access our knowledge base, provider API, and documentation.
         </p>
       </ComponentTransition>
       <CardFaq />

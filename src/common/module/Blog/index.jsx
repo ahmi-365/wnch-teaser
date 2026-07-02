@@ -19,7 +19,7 @@ const Blog = () => {
           Our Blog & News
         </h1>
         <p className="text-base md:text-2xl text-neutral-500 dark:text-neutral-300 md:w-[50%] text-center">
-          We share essential insights on modern provider matching, towing operations, and fleet management strategies.
+          Insights on provider matching, towing ops, and fleet management.
         </p>
       </ComponentTransition>
       <BlogList />

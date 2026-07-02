@@ -1,4 +1,3 @@
-import Rails from "@/common/component/element/Rails";
 import React from "react";
 import CardAbout from "./component/CardAbout";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
@@ -10,18 +9,12 @@ const About = () => {
           <h1 className="text-4xl md:text-7xl py-5 px-10 text-center dark:bg-gradient-to-r from-white from-50% to-black bg-text bg-clip-text  text-transparent font-bold">
             About Us
           </h1>
-          <div className=" absolute w-[150%] md:w-[210%]  h-[250px] z-[-99] top-[-70px]">
-            <Rails />
-            <div className="bg-gradient-to-b from-white dark:from-black from-20% to-transparent absolute inset-0 "></div>
-            <div className="bg-gradient-to-l from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-            <div className="bg-gradient-to-r from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-            <div className="bg-gradient-to-t from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-          </div>
+
         </div>
       </div>
       <div className="flex justify-center items-center flex-col">
         <p className="text-base md:text-2xl text-neutral-500 md:w-[70%] text-center">
-          Discover how WNCH Hub was built from the ground up to revolutionize the towing and roadside assistance industry through innovative, cloud-based technology.
+          Discover how WNCH Hub revolutionizes towing and roadside assistance through innovative, cloud-based technology.
         </p>
       </div>
       <CardAbout />
